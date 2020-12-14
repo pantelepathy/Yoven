@@ -166,6 +166,7 @@ $('document').ready(function(){
 	});
 	
 	$('#story').click(function(){
+		$("p:nth-child(58)").fadeOut('slow');
 		$(this).fadeOut('slow');
 		$('.cake').fadeOut('fast').promise().done(function(){
 			$('.message').fadeIn('slow');
@@ -176,7 +177,13 @@ $('document').ready(function(){
 		function msgLoop (i) {
 			$("p:nth-child("+i+")").fadeOut('slow').delay(800).promise().done(function(){
 				i=i+1;
-				$("p:nth-child("+i+")").fadeIn('slow').delay(1000);
+				if (i === 13 || i === 14 || i === 15 || i === 22 || i === 28 || i === 31 || i === 32
+				|| i === 34 || i === 35 || i === 37 || i === 38 || i === 40 || i === 41 || i === 48
+				|| i === 53 || i === 56) {
+					$("p:nth-child("+i+")").fadeIn('slow').delay(1500);
+				} else {
+					$("p:nth-child("+i+")").fadeIn('slow').delay(1000);
+				}
 				if(i === 58) {
 					$("p:nth-child(57)").fadeOut('slow').promise().done(function () {
 						$('#story').fadeIn('slow');
