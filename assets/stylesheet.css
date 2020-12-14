@@ -1273,9 +1273,9 @@ audio {
 }
 .message p {
 	font-family: 'Signika', sans-serif;
-	font-size: 30px;
+	font-size: 20px;
 	text-transform: uppercase;
-	color: #C4515C;
+	color: #6495ED;
 	text-shadow: 2px 2px 2px #FFF;
 	display: none;
 	font-weight: bold;
