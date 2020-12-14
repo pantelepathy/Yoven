@@ -30,13 +30,13 @@ var config = {
     },
     // 按钮文字描述, 以下是默认的按钮文字，英文的，您可以改成你喜欢的文字
     desc: {
-        turn_on: "开始",
-        play: "音乐",
-        bannar_coming: "颜色",
-        balloons_flying: "好像少点东西",
-        cake_fadein: "蛋糕？",
-        light_candle: "蜡烛？",
-        wish_message: "生日快乐",
-        story: "A MESSAGE FOR YOU",
+        turn_on: "Turn On Light",
+        play: "Some Music",
+        bannar_coming: "Let's Decorate",
+        balloons_flying: "Fly With Balloons",
+        cake_fadein: "Most Delicious Cake Ever",
+        light_candle: "Light Candle",
+        wish_message: "Happy Birthday",
+        story: "A message for you",
     }
 };
