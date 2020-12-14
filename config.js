@@ -28,11 +28,11 @@ var config = {
         "心爱的小可爱": "./imgs/xiaokeai.png",
         // "今天是你的生日": "./imgs/birthday.jpg",
     },
-    // 按钮文字描述, 以下是默认的按钮文字，英文的，您可以改成你喜欢的文字
+
     desc: {
         turn_on: "Turn On Light",
         play: "Some Music",
-        bannar_coming: "Let's Decorate",
+        banner_coming: "Let's Decorate",
         balloons_flying: "Fly With Balloons",
         cake_fadein: "Most Delicious Cake Ever",
         light_candle: "Light Candle",

@@ -968,7 +968,7 @@ audio {
 	display: none;
 }
 
-.bannar {
+.banner {
 	max-width: 100%;
 	-webkit-transform:translate(0px,-500px);
 	-moz-transform:translate(0px,-500px);
@@ -977,19 +977,19 @@ audio {
 	transform:translate(0px,-500px);
 
 }
-.bannar-come {
-	-webkit-animation: bannar_come linear 6s;
+.banner-come {
+	-webkit-animation: banner_come linear 6s;
 	-webkit-transform:translate(0px,0px);
-	-moz-animation: bannar_come linear 6s;
+	-moz-animation: banner_come linear 6s;
 	-moz-transform:translate(0px,0px);
-	-o-animation: bannar_come linear 6s;
+	-o-animation: banner_come linear 6s;
 	-o-transform:translate(0px,0px);
-	-ms-animation: bannar_come linear 6s;
+	-ms-animation: banner_come linear 6s;
 	-ms-transform:translate(0px,0px);
-	animation: bannar_come linear 6s;
+	animation: banner_come linear 6s;
 	transform:translate(0px,0px);
 }
-@-webkit-keyframes bannar_come {
+@-webkit-keyframes banner_come {
 	0%{
 		-webkit-transform:translate(0px,-1000px);
 	}
@@ -1006,7 +1006,7 @@ audio {
 		-webkit-transform:translate(0px,0px);
 	}
 }
-@-moz-keyframes bannar_come {
+@-moz-keyframes banner_come {
 	0%{
 		-moz-transform:translate(0px,-1000px);
 	}
@@ -1023,7 +1023,7 @@ audio {
 		-moz-transform:translate(0px,0px);
 	}
 }
-@-o-keyframes bannar_come {
+@-o-keyframes banner_come {
 	0%{
 		-o-transform:translate(0px,-1000px);
 	}
@@ -1040,7 +1040,7 @@ audio {
 		-o-transform:translate(0px,0px);
 	}
 }
-@-ms-keyframes bannar_come {
+@-ms-keyframes banner_come {
 	0%{
 		-ms-transform:translate(0px,-1000px);
 	}
@@ -1057,7 +1057,7 @@ audio {
 		-ms-transform:translate(0px,0px);
 	}
 }o
-@keyframes bannar_come {
+@keyframes banner_come {
 	0%{
 		transform:translate(0px,-1000px);
 	}
@@ -1260,7 +1260,7 @@ audio {
 	bottom: 0;
 	padding:10px 0px 10px 0px;
 }
-#play, #bannar_coming, #balloons_flying,#cake_fadein,#light_candle,#wish_message,#story {
+#play, #banner_coming, #balloons_flying,#cake_fadein,#light_candle,#wish_message,#story {
 	display: none;
 }
 
